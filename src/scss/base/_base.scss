@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: var(--ff-body);
+   font-size: 13px;
+   font-weight: 500;
+   color: var(--very-dark-blackish-blue);
+}
+
+body{
+   width: 100%;
+   margin: 0; 
+   padding: 0;
+}
+
+img {
+   display: block;
+   width: 100%;
+   width: 100px;
+}
